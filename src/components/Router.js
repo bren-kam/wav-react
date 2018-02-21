@@ -11,6 +11,8 @@ import ValidateVoter from './landingPage/ValidateVoter';
 import Register from './captainProfile/Register';
 import Page_50_X from './errorPages/Page_50_X';
 
+import SendInvite from './invites/SendInvite';
+
 
 
 
@@ -28,6 +30,10 @@ const Router =() => (
 			<Route exact path ='/facebook/Facebook' component = {Facebook}/>
 
 			<Route exact path ='/errorPages/Page_50_X' component = {Page_50_X}/>
+
+			<Route exact path ='/invites/SendInvite' component = {SendInvite}/>
+
+
 		</Switch>
 	</router>
 )
