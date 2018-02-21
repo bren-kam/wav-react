@@ -30,7 +30,7 @@ class SendInvite extends Component {
 
 		return (
 			<div>
-				<div className="btw-container">
+				<div className="btw-login-container">
 					<div className="input-field col s6">
 						<label htmlFor="captainEmail">Captain Invite</label>
 						<br/>
@@ -39,11 +39,11 @@ class SendInvite extends Component {
 						       style={{color: 'black'}}
 						       onChange={this.updateInviteFields.bind(this, 'captainEmail')}></input>
 					</div>
-					
+
 					<div className='btw-container'>
 						<div id='loginbtn' className="btn-general btn"
 						     onClick={this.sendInvite.bind(this, 'sendInvite')}>
-							<span className="btw-buttonText">Login</span>
+							<span className="btw-buttonText">Send Invite</span>
 						</div>
 					</div>
 				</div>
