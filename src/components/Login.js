@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux'
 import GoogleAction from '../actions/GoogleAction';
 import {Link} from 'react-router-dom'
-
-import '../resources/App.scss'
 import IdentityAction from "../actions/IdentityAction";
 
 

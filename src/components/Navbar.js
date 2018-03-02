@@ -3,7 +3,6 @@ import {connect} from 'react-redux'
 import GoogleAction from "../actions/GoogleAction";
 import HeaderDropdown from "./HeaderDropdown"
 
-import '../resources/App.scss'
 
 class Navbar extends Component {
 
