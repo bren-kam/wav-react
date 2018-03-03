@@ -1,6 +1,3 @@
-
-
-
 const isValidEmail = (email) => {
   if (typeof email !== "string" || !(email.length <=30 && email.length >= 5)) {
     return false;
@@ -39,7 +36,6 @@ const isValidDate = (date) => {
   }
   return true;
 }
-
 
 module.exports = {
   isValidEmail,
