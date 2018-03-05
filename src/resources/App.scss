@@ -1,5 +1,10 @@
 @import "colors.scss";
 
+@font-face {
+  font-family: Gotham;
+  src: url(fonts/Gotham_Rounded_Light.otf);
+}
+
 .App {
   text-align: center;
 }
@@ -161,11 +166,6 @@
 
 a {
   font-size: 20px;
-}
-
-#password {
-  margin-bottom: 70px;
-  outline: color('ocean') !important;
 }
 
 span.label {
