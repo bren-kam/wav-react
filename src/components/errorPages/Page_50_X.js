@@ -1,14 +1,7 @@
 import React, {Component} from 'react';
-import '../../resources/App.scss'
 import History from '../../utility/History';
 
 class Page_50_X extends Component {
-
-
-	sendBackToHomePage() {
-		History.replace('/')
-		History.go();
-	}
 
 	render() {
 		let error = localStorage.getItem('lastError');

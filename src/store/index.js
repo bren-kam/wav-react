@@ -2,7 +2,7 @@ import { createStore, applyMiddleware, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger'
 
-import { GoogleReducer, FacebookReducer, IdentityReducer, FormReducer } from '../reducers';
+import { GoogleReducer, FacebookReducer, IdentityReducer } from '../reducers';
 
 
 
@@ -21,8 +21,7 @@ export default {
 		const combinedReducers = combineReducers({
 			google: GoogleReducer,
 			facebook: FacebookReducer,
-			identity: IdentityReducer,
-			form: FormReducer
+			identity: IdentityReducer
 		});
 
 

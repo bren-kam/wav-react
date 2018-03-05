@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import '../resources/App.scss'
 import {connect} from "react-redux";
 import GoogleAction from "../actions/GoogleAction";
 
