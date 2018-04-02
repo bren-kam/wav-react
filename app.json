@@ -1,0 +1,11 @@
+{
+  "name": "Be the wave",
+  "description": "Helping fiends vote",
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "npm run test-jest"
+      }
+    }
+  }
+}
